@@ -42,10 +42,7 @@ const MoreOrLessContainer = styled(
 `;
 
 class MoreOrLess extends Component {
-  constructor(props) {
-    super(props);
-    this.id = getUniqueId();
-  }
+  this.id = getUniqueId();
 
   render() {
     const {
